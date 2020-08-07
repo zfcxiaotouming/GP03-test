@@ -1,0 +1,138 @@
+.header{
+    width: 860px;
+    height: 80px;
+    background-color: #ccc;
+    margin: auto;
+}
+.header h1{
+    text-align: center;
+    line-height: 80px;
+}
+.goodsList{
+    width: 860px;
+    margin: auto;
+}
+.title{
+    overflow: hidden;
+    height: 40px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+.title span{
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333;
+}
+.title .t0{
+    margin-left: 10px;
+}
+.title .t0 input {
+    margin-right: 10px;
+}
+.title .t1{
+    margin-left: 100px;
+}
+.title .t2{
+    margin-left: 270px;
+}
+.title .t3{
+    margin-left: 150px;
+}
+.title .t4{
+    margin-left: 138px;
+}
+.list li{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.list li input {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.list li img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+.list li h3{
+    float: left;
+    font-weight: normal;
+    font-size: 14px;
+    width: 300px;
+    padding: 10px 0 0 15px;
+}
+.list li p{
+    float: left;
+    font-size: 14px;
+    color: red;
+    padding: 10px 0 0 39px;
+}
+.list li span{
+    float: left;
+    font-size: 14px;
+    color: blue;
+    padding: 10px 0 0 106px;
+}
+.list li .btn {
+    float: left;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    height: 20px;
+    margin-left: 126px;
+    margin-top: 8px;
+}
+.list .btn button {
+    float: left;
+    font-style: normal;
+    text-align: center;
+    line-height: 20px;
+    color: #333;
+    background: #fff;
+    border: 0;
+    outline: none;
+}
+.list li button:disabled {
+    cursor: not-allowed;
+}
+.btn .del,.btn .add {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.list .btn .int {
+    width: 30px;
+    height: 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+}
+.list li em{
+    float: left;
+    font-size: 14px;
+    color: orangered;
+    padding: 10px 0 0 113px;
+    cursor: pointer;
+}
+.pay {
+    width: 860px;
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+}
+.pay>span {
+    float: left;
+    margin-left: 10px;
+}
+.pay .removes {
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    color: red;
+}
+.pay .total {
+    float: right;
+    margin-right: 20px;
+}
