@@ -59,3 +59,13 @@
 3. git clone 把远程仓库克隆到本地
 
 ## :wq 回车 退出编辑模式
+
+## git branch
+1. 查看分支
+2. 当前分支前有*
+
+## git branch 分支名
+1. 创建分支
+
+## git checkout 分支名
+1. 切换分支
