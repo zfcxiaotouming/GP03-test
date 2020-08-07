@@ -46,7 +46,17 @@ if ($type === 'page') {
     } else {
         echo '{"err":0,"msg":"修改失败"}';
     }
-} 
+} else if($type === 'add'){
+     // 添加数据sql语句
+     $add_sql = "insert into user (username,age,sex,phone) values('$username','$age','$sex','$phone')";
+     $add_res = mysqli_query($link,$update_sql);
+     $num = mysqli_affected_rows($link);
+     if ($num > 0) {
+         echo '{"err":1,"msg":"修改成功"}';
+     } else {
+         echo '{"err":0,"msg":"修改失败"}';
+     }
+}
 else {
     echo '{"err":0,"msg":"参数错误"}';
 }
